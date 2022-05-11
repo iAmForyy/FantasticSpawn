@@ -1,0 +1,42 @@
+# +-----------------------------------------------+
+# +              FANTASTIC SPAWN v1.1             +
+# +            CREATED BY: iAmForyyDev_           +
+# +                                               +
+# +-----------------------------------------------+
+Options:
+  msg_tp_onjoin: false
+  title_welcome: true
+Sounds:
+  no_permission: NOTE_PLING
+  spawn_teleport: NOTE_PLING
+Messages:
+  spawn_set: "&eSpawn set"
+  spawn_not_set: "&cSpawnpoint is not set, please set it"
+  no_permission: "&cNo permissions!"
+  spawn_teleport: "&eTeleport successful"
+  reload: "&aReload completed!"
+  help:
+  - ""
+  - "&fUse &e'/spawn' &fto return to spawn"
+  - "&fUse &e'/setspawn' &fto set the spawn"
+  - "&fUse &e'/fs reload' &fto reload the configuration"
+  - ""
+Welcome:
+  first_join: "&e%player% &fis the player &a#%number%"
+  title_welcome: "&6&lSERVERMC"
+  subtitle_welcome: "&f¡Welcome &e%player%&f!"
+  default_message: true
+  default: "&6Welcome to server &e%player%"
+  rank:
+  - ""
+  - "&fThe god &e%player% &fjoined to server."
+  - ""
+Goodbye:
+  default_message: true
+  default: "&fThe player &e%player% &fleft the server"
+  rank:
+  - ""
+  - "&fThe god &e%player% &fleft the server."
+  - ""
+Firework:
+  power: 1
