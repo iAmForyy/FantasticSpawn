@@ -21,12 +21,9 @@ public class FantasticSpawn extends JavaPlugin{
 		pluginManager.registerEvents(new PlayerEvents(this), this);
 		
 		getServer().getLogger().info("");
-		getServer().getLogger().info("&aThanks for used my plugin :)");
-		getServer().getLogger().info("&aAuthor: iAmForyyDev_");
-		getServer().getLogger().info("&aVersion: "+Bukkit.getVersion());
+		getServer().getLogger().info("Thanks for used my plugin :)");
+		getServer().getLogger().info("Author: iAmForyyDev_");
+		getServer().getLogger().info("Version: "+Bukkit.getVersion());
 		getServer().getLogger().info("");
-	}
-	public String c(String string) {
-		return ChatColor.translateAlternateColorCodes('&', string);
 	}
 }
