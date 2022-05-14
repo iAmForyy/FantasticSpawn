@@ -117,11 +117,11 @@ public class PlayerEvents implements Listener{
 	public void onDamage(EntityDamageEvent e) {
 		Entity p = e.getEntity();
 		DamageCause dano = e.getCause();
-		if(p instanceof Player) {
-			if(dano.equals(EntityDamageEvent.DamageCause.FALL)) {
-				e.setCancelled(true);
-			}
+		if(!(p instanceof Player)) return;
+		if(dano.equals(EntityDamageEvent.DamageCause.FALL)) {
+			e.setCancelled(true);
 		}
+			
 	}
 	@EventHandler
 	public void onMovement(PlayerMoveEvent e) {
