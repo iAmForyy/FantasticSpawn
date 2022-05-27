@@ -1,0 +1,6 @@
+name: FantasticSpawn
+version: '${project.version}'
+main: com.foryydev.software.FantasticSpawn
+api-version: 1.13
+authors: [ IAmForyy ]
+description: Simple spawn plugin
